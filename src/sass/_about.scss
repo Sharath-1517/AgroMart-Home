@@ -1,0 +1,58 @@
+@import 'config';
+
+.about {
+    margin-top: 120px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: $font;
+    box-shadow: 0 0 30px 5px $green;
+    padding: 50px 0;
+
+    .service-question {
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+    h4 {
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    &-services {
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        column-gap: 40px;
+    }
+
+    &-farmers, &-consumers, &-users {
+        width: 330px;
+        height: 340px;
+        padding: 10px 20px 20px 20px;
+        border: 9px $green solid;
+
+        h2 {
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 1.1rem;
+        }
+    }
+
+
+    &-icons {
+        width: 35%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+}
+
+.user {
+    width: 32%;
+    margin: 22px auto;
+    padding: 20px;
+}

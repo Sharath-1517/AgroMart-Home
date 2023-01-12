@@ -1,0 +1,45 @@
+@import 'config';
+
+.services {
+    margin-top: 150px;
+    text-align: center;
+    background: #004200;
+    font-family: $font;
+    padding: 100px 0;
+    color: white;
+
+    h1 {
+        font-weight: 600;
+        font-size: 3rem;
+        text-decoration: underline;
+    }
+
+    h3 {
+        font-weight: 500;
+        font-size: 2rem;
+
+    }
+
+    &-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        column-gap: 100px;
+        margin-top: 50px;
+
+        h1 {
+            font-weight: 500;
+            font-size: 2.5rem;
+        }
+
+        li {
+            list-style: none;
+            font-size: 1.2rem;
+        }
+        img {
+            height: 350px;
+            width: 500px;
+            margin-bottom: 35px;
+        }
+    }
+}
