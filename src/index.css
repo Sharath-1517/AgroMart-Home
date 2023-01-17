@@ -23,7 +23,7 @@ body {
   margin: 0 5px;
   box-shadow: 0 0 10px 2px grey;
   background-size: cover;
-  background-image: url(/public/images/about-img.webp);
+  background-image: url(images/about-img.webp);
 }
 .login-content {
   display: flex;
@@ -418,4 +418,4 @@ body {
   top: 0;
   left: 0;
   border: 2px solid black;
-}/*# sourceMappingURL=index.css.map */
+}
