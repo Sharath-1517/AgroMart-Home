@@ -412,10 +412,3 @@ body {
 .navbar-img {
   width: 100px;
 }
-
-.scrolled {
-  position: fixed;
-  top: 0;
-  left: 0;
-  border: 2px solid black;
-}
